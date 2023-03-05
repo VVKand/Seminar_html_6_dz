@@ -55,18 +55,14 @@ nav {
 
 .banner h1 {
   font-weight: 900;
-  font-size: 48px;
-  line-height: 58px;
+  font-size: 56px;
   color: #222222;
-}
-.banner h3 {
 }
 
 .text_h3 {
   display: flex;
   font-weight: 700;
   font-size: 32px;
-  line-height: 38px;
   color: #222222;
 }
 
@@ -75,15 +71,17 @@ nav {
 }
 
 .banner__txt {
-  height: 100px;
   padding-left: 16px;
   align-items: center;
   border-left: 12px solid #f16d7f;
 }
 
-.card__list {
+.main__width {
   width: 1140px;
   margin: 0 auto;
+}
+
+.card__list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
@@ -99,8 +97,6 @@ nav {
 }
 
 .asses {
-  width: 1140px;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -136,8 +132,6 @@ nav {
 }
 
 .fetured {
-  width: 1140px;
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -156,8 +150,6 @@ nav {
 }
 
 .sail__card__lst {
-  width: 1140px;
-  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -200,11 +192,9 @@ nav {
 }
 
 .btn__list {
-  width: 1140px;
-  margin: 0 auto;
   text-align: center;
-
 }
+
 .btn {
   padding: 14px 39px;
   font-weight: 400;
@@ -212,7 +202,38 @@ nav {
   line-height: 19px;
   color: #f26376;
   border: 1px solid #ff6a6a;
-  background: #E5E5E5;
   margin-bottom: 100px;
+  background: none;
   cursor: pointer;
+}
+
+@media (min-width: 767px) and (max-width: 1025px){
+  .conteiner {
+  width: 768px;
+  }
+
+nav {
+  background: #222222;
+  padding: 18px 32px 18px 36px;
+}
+
+.banner {
+  gap: 39px;
+}
+
+.banner h1 {
+   font-size: 44px;
+}
+
+.text_h3 {
+    font-size: 21px;
+ }
+
+ .img__bnr {
+  width: 386px;
+ }
+
+ .main__width {
+  width: 736px;
+  }
 }
