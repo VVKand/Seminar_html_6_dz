@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@600;800&family=Roboto:wght@100&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+nav {
+  background: #222222;
+  padding: 18px 231px 19px 240px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  gap: 41px;
+  align-items: center;
+}
+
+.nav__btn {
+  display: flex;
+  gap: 33px;
+  align-items: center;
+}
+
+.conteiner {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.banner {
+  display: flex;
+  background: hsl(351, 32%, 92%);
+  gap: 63px;
+  align-items: center;
+  margin-bottom: 65px;
+}
+
+.banner h1 {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  color: #222222;
+}
+.banner h3 {
+}
+
+.text_h3 {
+  display: flex;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #222222;
+}
+
+.text_pink {
+  color: #f16d7f;
+}
+
+.banner__txt {
+  height: 100px;
+  padding-left: 16px;
+  align-items: center;
+  border-left: 12px solid #f16d7f;
+}
+
+.card__list {
+  width: 1140px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 30px;
+}
+
+.card {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.asses {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.card h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #f16d7f;
+}
+
+.card__content {
+  position: absolute;
+  color: white;
+  width: 100%;
+  padding: 105px 103px;
+}
+
+.long__card__content {
+  position: absolute;
+  color: white;
+  width: 100%;
+  padding: 65px 0;
+}
+
+.fetured {
+  width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.fetured h4 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #222222;
+}
+.fetured p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9f9f9f;
+  margin-bottom: 48px;
+}
+
+.sail__card__lst {
+  width: 1140px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+  text-align: left;
+}
+
+.sail__card {
+  background: #f8f8f8;
+  margin-bottom: 49px;
+}
+
+.sail__card h5 {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  margin-top: 25px;
+  margin-bottom: 16px;
+  margin-left: 16px;
+}
+
+.sail__card p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5d5d5d;
+  margin-left: 16px;
+  margin-bottom: 16px;
+  margin-right: 29px;
+}
+
+.sail__card h6 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f16d7f;
+  margin-left: 16px;
+  margin-bottom: 19px;
+}
+
+.btn__list {
+  width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.btn {
+  padding: 14px 39px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f26376;
+  border: 1px solid #ff6a6a;
+  background: #E5E5E5;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
