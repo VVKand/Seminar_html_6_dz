@@ -94,13 +94,7 @@ nav {
   flex-direction: column;
   align-items: center;
   text-align: center;
-}
-
-.asses {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  justify-content: center;
 }
 
 .card p {
@@ -120,8 +114,6 @@ nav {
 .card__content {
   position: absolute;
   color: white;
-  width: 100%;
-  padding: 105px 103px;
 }
 
 .long__card__content {
@@ -165,7 +157,6 @@ nav {
 .sail__card h5 {
   font-weight: 400;
   font-size: 13px;
-  line-height: 16px;
   color: #000000;
   margin-top: 25px;
   margin-bottom: 16px;
@@ -175,7 +166,6 @@ nav {
 .sail__card p {
   font-weight: 300;
   font-size: 14px;
-  line-height: 17px;
   color: #5d5d5d;
   margin-left: 16px;
   margin-bottom: 16px;
@@ -185,7 +175,6 @@ nav {
 .sail__card h6 {
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
   color: #f16d7f;
   margin-left: 16px;
   margin-bottom: 19px;
@@ -199,7 +188,6 @@ nav {
   padding: 14px 39px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
   color: #f26376;
   border: 1px solid #ff6a6a;
   margin-bottom: 100px;
@@ -207,33 +195,33 @@ nav {
   cursor: pointer;
 }
 
-@media (min-width: 767px) and (max-width: 1025px){
+@media (min-width: 767px) and (max-width: 1025px) {
   .conteiner {
-  width: 768px;
+    width: 768px;
   }
 
-nav {
-  background: #222222;
-  padding: 18px 32px 18px 36px;
-}
+  nav {
+    background: #222222;
+    padding: 18px 32px 18px 36px;
+  }
 
-.banner {
-  gap: 39px;
-}
+  .banner {
+    gap: 39px;
+  }
 
-.banner h1 {
-   font-size: 44px;
-}
+  .banner h1 {
+    font-size: 44px;
+  }
 
-.text_h3 {
+  .text_h3 {
     font-size: 21px;
- }
+  }
 
- .img__bnr {
-  width: 386px;
- }
+  .img__bnr {
+    width: 386px;
+  }
 
- .main__width {
-  width: 736px;
+  .main__width {
+    width: 736px;
   }
 }
