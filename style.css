@@ -229,3 +229,84 @@ nav {
     margin-bottom: 73px;
   }
 }
+@media (min-width: 319px) and (max-width: 768px) {
+  .conteiner {
+    width: 375px;
+  }
+
+  .main__width {
+    width: 375px;
+  }
+
+  nav {
+    background: #222222;
+    padding: 18px 16px 19px 16px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .banner {
+    padding-top: 148px;
+    padding-bottom: 148px;
+    justify-content: center;
+  }
+
+  .banner h1 {
+    font-size: 36px;
+  }
+
+  .text_h3 {
+    font-size: 16px;
+  }
+
+  .card__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 32px;
+  }
+
+  .card {
+    margin-bottom: 0px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .card__asses {
+    width: 100%;
+    height: 111px;
+    margin: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .card__asses img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 32px;
+  }
+
+  .long__card__content {
+    position: absolute;
+    color: white;
+    width: 100%;
+    margin-top: 32px;
+  }
+
+  .fetured {
+    margin-top: 64px;
+  }
+  .sail__card__lst {
+    width: 359px;
+    grid-template-columns: 1fr;
+    margin: 41px;
+    gap: 17px;
+  }
+
+  .sail__card {
+    margin: 0;
+  }
+}
