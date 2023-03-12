@@ -40,13 +40,77 @@ nav {
   align-items: center;
 }
 
+.elps {
+  display: block;
+  position: relative;
+}
+.elps::before {
+  content: url(./img/Ellipse\ 2.png);
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+
+.elps::after {
+  content: url(./img/5.png);
+  position: absolute;
+  top: -10px;
+  right: -1px;
+}
+
 .conteiner {
   width: 1600px;
   margin: 0 auto;
 }
 
+.hidden {
+  display: none;
+}
+
+.menu {
+  width: 232px;
+  height: 634px;
+  background: #ffffff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 32px 33px;
+}
+
+.menu__top {
+  margin-bottom: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.menu__list {
+  margin-bottom: 20px;
+}
+
+.menu__list h4 {
+  margin-bottom: 12px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #f16d7f;
+}
+
+.menu__list h5 {
+  margin-bottom: 11px;
+  margin-left: 22px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #6f6e6e;
+}
+
 .banner {
   display: flex;
+  position: relative;
   background: hsl(351, 32%, 92%);
   gap: 63px;
   align-items: center;
@@ -180,6 +244,30 @@ nav {
   margin-bottom: 19px;
 }
 
+.card__hov {
+  display: block;
+  position: relative;
+}
+
+.card__hov:hover::after {
+  content: url(./img/Add\ to\ cart.png);
+  position: absolute;
+  top: 189px;
+  left: 112px;
+  right: 0;
+  bottom: 0;
+}
+
+.card__hov:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(58, 56, 56, 0.86);
+}
+
 .btn__list {
   text-align: center;
 }
@@ -193,6 +281,11 @@ nav {
   margin-bottom: 96px;
   background: none;
   cursor: pointer;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background: #f16d7f;
 }
 
 .club__list {
@@ -343,6 +436,14 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.vector svg:hover {
+  fill: white;
+}
+
+.vector:hover {
+  background: #f16d7f;
 }
 
 /* tablet 768px */
