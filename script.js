@@ -4,4 +4,4 @@ let headerMenu = document.querySelector('.burger__box');
 function toggleMenu() {
 menuActive.classList.toggle('hidden');
     }
-headerMenu.addEventListener('hover', toggleMenu);
+headerMenu.addEventListener('click', toggleMenu);

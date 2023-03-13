@@ -71,6 +71,7 @@ nav {
   width: 232px;
   height: 634px;
   background: #ffffff;
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
   position: absolute;
   top: 0;
   right: 0;
