@@ -257,6 +257,7 @@ nav {
   left: 112px;
   right: 0;
   bottom: 0;
+  cursor: pointer;
 }
 
 .card__hov:hover::before {
@@ -420,7 +421,6 @@ nav {
   color: #fbfbfb;
   margin-left: 230px;
   margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 .vector__list {
@@ -439,7 +439,7 @@ nav {
   align-items: center;
 }
 
-.vector svg:hover {
+.vector:hover svg {
   fill: white;
 }
 
@@ -485,6 +485,7 @@ nav {
   .sail__card__lst {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    margin: 0 auto;
   }
 
   .club__list {
@@ -540,7 +541,7 @@ nav {
     padding: 18px 16px 19px 16px;
   }
 
-  .hidden {
+  .hidden__mob {
     display: none;
   }
 
